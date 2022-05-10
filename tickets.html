@@ -63,16 +63,34 @@
 				       	   pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
 				</fieldset>
 				<fieldset>
-				    <legend>Choose your card carrier</legend>
+				    <label>
+					    <legend>Credit Card Information</legend>
+					    <input type="radio" id="visa" name="carrier">
+					    <label for="visa">Visa</label><br/>
 
-				    <input type="radio" id="visa" name="card">
-				    <label for="visa">Visa</label><br/>
+					    <input type="radio" id="mastercard" name="carrier">
+					    <label for="mastercard">Mastercard</label><br/>
 
-				    <input type="radio" id="mastercard" name="card">
-				    <label for="mastercard">Mastercard</label><br/>
-
-				    <input type="radio" id="discover" name="card">
-				    <label for="discover">Discover</label>
+					    <input type="radio" id="visa" name="carrier">
+					    <label for="visa">Mothman</label>
+					    
+					    <span class="nmoncd">Name on Card</span>
+					    <input name="nameoncard" type="text" placeholder="Lucious B. Byinshtuff">
+					  </label>
+					  <label> 
+					    <span class="cdnum">Card Number <span>(Dashes not required)</span></span>
+					    <input name="cardnumber" type="text" placeholder="DONT-USEA-REAL-NMBR">
+					  </label>
+					  <label class="exp">
+					    <span class="expdt">Exp. Date</span>
+					    <input name="experationdate" type="text" placeholder="MM/YYYY">
+					  </label>
+					  <label class="cvc">
+					    <span class="cvcnum">CVC</span>
+					    <input name="cvcnumber" type="text" placeholder="XXX">
+					  </label>
+					
+					
 				  </fieldset>
 				<fieldset>
 					<legend>Membership Information</legend>
