@@ -82,6 +82,9 @@ input:invalid {
 br {
     clear: both;
 }
+div {
+	margin: 0 auto;
+}
 #card{
 	float: none;
 }
